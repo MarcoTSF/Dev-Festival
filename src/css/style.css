@@ -1,0 +1,86 @@
+/* Body */
+body{
+    background-color: #01011C;
+}
+/* Header */
+header .menu ul a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* Tipografia */
+.title{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.title.one{
+    font-size: 90px;
+    font-weight: 700px;
+}
+.title.two{
+    font-size: 60px;
+    font-weight: 700px;
+}
+.title.three{
+    font-size: 16px;
+    font-weight: 600px;
+}
+.title.threehalf{
+    font-size: 28px;
+    font-weight: 700px;
+}
+.title.four{
+    font-size: 24px;
+    font-weight: 600px;
+}
+.content-box p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 400px;
+    color: #FFFFFF  ;
+}
+.blue-text{
+    color: #0000FF;
+}
+
+/* Botões */
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+    height: 60px;
+    width: 300px;
+    border-radius: 255px;
+    transition: 0.4s;
+}
+.btn.solid{
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border: 2px solid #0000FF;
+}
+.btn.solid:hover{
+    background-color: #4444FF;
+    border-color: #4444FF;
+}
+.btn.outline{
+    background-color: transparent;
+    color: #A5A5FF;
+    border: 2px solid #A5A5FF;
+}
+.btn.outline:hover{
+    background: #A5A5FF;
+    color: #FFFFFF;
+}
+
+/* Grid */
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}

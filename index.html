@@ -4,58 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Dev Festival - Kenzie</title>
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img src="./src/imagens/LogoKenzieFestival.png" alt="Logo Dev Festival">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#sobre">Sobre</a>
-                </li>
-            </ul>
-            <a href="./pages/carrinho.html">Quero meu ingresso!</a>
-            <button>
-                <img src="./src/imagens/Vector.png" alt="Ícone configuração">
-            </button>
-        </nav>
+        <div class="container">
+            <a href="index.html">
+                <img src="./src/imagens/LogoKenzieFestival.png" alt="Logo Dev Festival">
+            </a>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                </ul>
+                <a href="./pages/carrinho.html" class="btn outline">Quero meu ingresso!</a>
+                <button>
+                    <img src="./src/imagens/Vector.png" alt="Ícone configuração">
+                </button>
+            </nav>
+        </div>
     </header>
     <section id="principal">
-        <img src="./src/imagens/Patinho1.png" alt="Imagem Patinho">
-        <h1>Dev Festival</h1>
-        <a href="./pages/carrinho.html" target="_blank">Quero meu ingresso!</a>
-        <img src="./src/imagens/MoçaOuvindoMusica.png" alt="image1">
+        <div class="container">
+            <img src="./src/imagens/Patinho1.png" alt="Imagem Patinho">
+            <h1 class="title one"><span class="blue-text">&lt;Dev/&gt;</span> Festival</h1>
+            <a href="./pages/carrinho.html" target="_blank" class="btn solid">Quero meu ingresso!</a>
+            <img src="./src/imagens/MoçaOuvindoMusica.png" alt="image1">
+        </div>
     </section>
 
     <section id="sobre">
-        <img src="./src/imagens/MoçaOuvindoMusica2.png" alt="image2">
-        <h2>Sobre o Festival</h2>
-        <p>
-        Conheça o Dev Festival, um grande evento que reune vários
-        desenvolvedores com um único objeto: compartilhar conhecimento.
-        </p>
-        <p>
-        Conheça o Dev Festival, um grande evento que reune vários
-        desenvolvedores com um único objeto: compartilhar conhecimento.
-        </p>
+        <div class="container">
+            <img src="./src/imagens/MoçaOuvindoMusica2.png" alt="image2">
+            <h2 class="title two">Sobre o Festival</h2>
+            <div class="content-box">
+                <p>
+                    Conheça o Dev Festival, um grande evento que reune vários
+                    desenvolvedores com um único objeto: compartilhar conhecimento.
+                </p>
+                <p>
+                    Conheça o Dev Festival, um grande evento que reune vários
+                    desenvolvedores com um único objeto: compartilhar conhecimento.
+                </p>
+            </div>
+        </div>
     </section>
     
     <section id="convidados">
-        <h2>Convidados</h2>
-        <ul>
-            <li>
-                <img src="./src/imagens/Circle1.png" alt="Programador 1">
-            </li>
-            <li>
-                <img src="./src/imagens/Circle2.png" alt="Programador 2">
-            </li>
-            <li>
-                <img src="./src/imagens/Circle3.png" alt="Programador 3">
-            </li>
-        </ul>
+        <div class="container">
+            <h2 class="title two">Convidados</h2>
+            <ul>
+                <li>
+                    <img src="./src/imagens/Circle1.png" alt="Programador 1">
+                </li>
+                <li>
+                    <img src="./src/imagens/Circle2.png" alt="Programador 2">
+                </li>
+                <li>
+                    <img src="./src/imagens/Circle3.png" alt="Programador 3">
+                </li>
+            </ul>
+        </div>
     </section>
 </body>
 </html>
