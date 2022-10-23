@@ -201,7 +201,7 @@ body{
     padding: 20px;
     border: 1px solid #FFFFFF;
     margin-top: 40px;
-    max-width: 291px;
+    max-width: fit-content;
 }
 #finalizacao .flex-box .ticket .mail{
     margin-top: 30px;
@@ -218,7 +218,7 @@ body{
     width: 100%;
 }
 #carrinho .flex-box .right{
-    margin-top: 98px;
+    margin-top: 55px;
     max-width: 300px;
 }
 #carrinho .flex-box .ticket-list{
@@ -238,7 +238,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     gap: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 #carrinho .flex-box .ticket-list .ticket .controls button{
     font-family: 'Poppins', sans-serif;
