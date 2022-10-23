@@ -2,48 +2,96 @@
 body{
     background-color: #01011C;
 }
+
+/* Global Spacing */
+.pad10-top{
+    padding-top: 10px;
+}
+.pad20-top{
+    padding-top: 20px;
+}
+.pad30-top{
+    padding-top: 30px;
+}
+.pad10-bottom{
+    padding-bottom: 10px;
+}
+.pad20-bottom{
+    padding-bottom: 20px;
+}
+.pad30-bottom{
+    padding-bottom: 30px;
+}
+
 /* Header */
-header .menu ul a{
+#header{
+    background: #01011C;
+}
+
+#header .menu ul a{
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 19px;
-    font-weight: 400px;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+#header .flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .flex-box nav{ 
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+#header .flex-box .logo img{
+    max-width: 170px;
 }
 
 /* Tipografia */
 .title{
     font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
     color: #FFFFFF;
 }
-.title.one{
+.title.one{    
     font-size: 90px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .title.two{
     font-size: 60px;
-    font-weight: 700px;
-}
-.title.three{
-    font-size: 16px;
-    font-weight: 600px;
+    font-weight: 700;
 }
 .title.threehalf{
     font-size: 28px;
-    font-weight: 700px;
+    font-weight: 700;
+}
+.title.three{
+    font-size: 24px;
+    font-weight: 600;
 }
 .title.four{
-    font-size: 24px;
-    font-weight: 600px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.title.center{
+    text-align: center;
 }
 .content-box p{
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
     font-size: 19px;
-    font-weight: 400px;
-    color: #FFFFFF  ;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 .blue-text{
     color: #0000FF;
+}
+.lightblue-text{
+    color: #A5A5FF;
 }
 
 /* Botões */
@@ -51,25 +99,25 @@ header .menu ul a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
     font-size: 18px;
-    font-weight: 700px;
-    height: 60px;
+    font-weight: 700;
     width: 300px;
+    height: 60px;
     border-radius: 255px;
     transition: 0.4s;
 }
 .btn.solid{
-    background-color: #0000FF;
+    background: #0000FF;
     color: #FFFFFF;
     border: 2px solid #0000FF;
 }
 .btn.solid:hover{
-    background-color: #4444FF;
-    border-color: #4444FF;
+    background: #4444ff;
+    border-color: #4444ff;
 }
 .btn.outline{
-    background-color: transparent;
+    background: transparent;
     color: #A5A5FF;
     border: 2px solid #A5A5FF;
 }
@@ -80,7 +128,48 @@ header .menu ul a{
 
 /* Grid */
 .container{
+    padding: 10px;
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+/* Seções */
+#principal{
+    padding: 50px 0;
+}
+#principal .flex-box{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+#sobre{
+    padding: 50px 0;
+}
+#sobre .flex-box{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+#sobre .flex-box .left,
+#sobre .flex-box .right{
+    width: 100%;
+}
+
+#sobre .flex-box .left img{
+    width: 100%;
+}
+
+#convidados{
+    padding: 50px 0;
+}
+
+#convidados .lista-convidados{
+    display: flex;
+    gap: 15px;
+}
+#convidados .lista-convidados img{
+    border-radius: 255px;
 }
